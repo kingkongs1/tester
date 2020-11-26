@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+	<title>해파리 주간보고</title>
+</head>
+<body>
+	<div id=logo>
+		<img alt="로고" src="{% static '/logo.png' %}"/>
+	</div>
+	<div><h1>해파리 주간보고</h1></div>
+	<div id=div1>
+		<div class="map_box">	
+			<img id="map" alt="지도" src="{% static '/Korea-All.png' %}"/>
+		</div>
+	</div>
+	
+</body>
+</html>
