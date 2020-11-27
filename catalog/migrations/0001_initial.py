@@ -18,6 +18,7 @@ class Migration(migrations.Migration):
                 ('news_desc_01', models.CharField(max_length=3000)),
                 ('news_desc_02', models.CharField(max_length=3000)),
                 ('news_desc_03', models.CharField(max_length=3000)),
+                ('news_pic_nam', models.CharField(max_length=255)),
                 ('rdate', models.CharField(max_length=10)),
                 ('nom_ratio_01', models.CharField(max_length=10)),
                 ('bor_ratio_01', models.CharField(max_length=10)),
