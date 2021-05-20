@@ -14,3 +14,7 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'jellyfish_warning.settings')
 
 application = get_wsgi_application()
+
+# <module> is the folder that contains wsgi.py. If you need to use a subfolder,
+# specify the parent of <module> using --chdir.
+
