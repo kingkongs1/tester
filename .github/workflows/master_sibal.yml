@@ -23,6 +23,7 @@ jobs:
 
     - name: "pip install"
       run: |
+        cd new_repo
         pip install -r requirements.txt 
     
     - name: 'Deploy to Azure Web App'
